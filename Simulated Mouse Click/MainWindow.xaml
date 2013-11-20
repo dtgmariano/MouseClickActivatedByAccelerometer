@@ -1,0 +1,10 @@
+﻿<Window x:Class="Simulated_Mouse_Click.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="205" Width="182">
+    <Grid>
+        <Button x:Name="btTest" Content="Click!" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="151" Height="98" IsDefault="True" Click="btTest_Click"/>
+        <Label x:Name="lbCount" Content="0" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.026,-0.846" Width="151" Height="45" FontSize="24" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Window>
